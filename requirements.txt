@@ -2,4 +2,4 @@ streamlit==1.25.0
 pandas==1.5.3
 scikit-learn==1.2.2
 wheel==0.41.1
-
+pillow==10.0.0
