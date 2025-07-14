@@ -13,19 +13,29 @@ st.markdown("""
             background-color: #000000;
             color: white;
         }
+        /* Label color fix */
+        label, .stSelectbox label, .stTextInput label, .stDateInput label {
+            color: white !important;
+            font-weight: 600;
+        }
+
+        /* Widget background */
         .css-1cpxqw2, .css-ffhzg2, .css-1d391kg, .css-1v3fvcr {
             background-color: #111111 !important;
             color: white !important;
         }
+
         .stSelectbox > div, .stTextInput > div {
             background-color: #111111 !important;
             color: white !important;
         }
+
         .stButton>button {
             background-color: #333;
             color: white;
             border-radius: 8px;
         }
+
         .stForm {
             background-color: #111111 !important;
             padding: 10px;
@@ -33,6 +43,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 st.title("🔮 Astrology Prediction System")
 
